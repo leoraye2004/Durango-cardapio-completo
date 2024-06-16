@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Durango</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+
+<body class="well">
+      <!-- Rodapé superior -->
+    <nav class="navbar navbar-expand-md navbar-dark px-3 fs-5 ">
+        <div class="container-fluid">
+            
+          <div class="collapse navbar-collapse " style="justify-content: center;" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item p-3 mx-4 txt-nav">
+                <a class="nav-link " aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item p-3 mx-4 txt-nav">
+                <a class="nav-link active" aria-current="page" href="cardapio.html">Cardápio</a>
+              </li> 
+              <li class="navbar-nav mx-4 ">
+                <a class="d-block" aria-current="page" href="#">
+                  <img
+                    src="img/Logo.png" class="rounded mx-auto d-block logo">
+                </a>
+              </li> 
+              <li class="nav-item p-3 mx-4 txt-nav">
+                <a  class="nav-link active" aria-current="page" href="#">Pedidos</a>
+              </li> 
+              <li class="nav-item p-3 mx-4 txt-nav">
+                <a  class="nav-link active" aria-current="page" href="login.html">Login</a>
+              </li> 
+            </ul>
+          </div>
+          
+        </div>
+      </nav>
+      <div class=" barra container-fluid">
+      </div>
+<br>
+<!-- Barra Cardápio -->
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light"style="background-color: #61310E; border-radius: 4px;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#secao1"style="color:white;">Tacos</a>
+        <a class="navbar-brand" href="#secao2"style="color:white;">Quesadilhas</a>
+        <a class="navbar-brand" href="#secao3"style="color:white;">Nachos</a>
+        <a class="navbar-brand" href="#secao4"style="color:white;">Burritos</a>
+        <a class="navbar-brand" href="#secao5"style="color:white;">Bebidas</a>
+      </div>
+    </nav>
+  </div>
+  <br>
+  <br>
+
+  <p id="secao1"></p>
+  <p class="text">
+    Tacos
+  </p>
+<br>
+  
+
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card custom-card" data-bs-toggle="modal" data-bs-target="#exampleModal1" style="cursor: pointer;">
+          <img src="img/taco1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">01 - Taco La Carne</h5>
+            <p class="card-text">Duas Unidades de Tortilla de Milho Crocante com Cubos de Carne, Mix de Pimentões...</p>
+            <p class="preco">R$ 31,69</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card custom-card" data-bs-toggle="modal" data-bs-target="#exampleModal2" style="cursor: pointer;">
+          <img src="img/taco2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">02 - Taco La Carne Y Cheddar</h5>
+            <p class="card-text">Duas Unidades de Tortilla de Milho Crocante com Cubos de Carne, Molho de Cheddar...</p>
+            <p class="preco">R$ 31,69</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card custom-card" data-bs-toggle="modal" data-bs-target="#exampleModal3" style="cursor: pointer;">
+          <img src="img/taco3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">03 - Taco La Carne Ranchera</h5>
+            <p class="card-text">Duas Unidades de Tortilla de Milho Crocante com Cubos de Carne, Molho Jalapeño, Queijo e Alface.</p>
+            <p class="preco">R$ 34,69</p>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+      <br>
+
+      <p id="secao2"></p>
+      <p class="text">
+        Quesadilhas
+      </p>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <!-- Card 4 -->
+      <div class="col-md-4 mb-4">
+        <div class="card custom-card" data-bs-toggle="modal" data-bs-target="#exampleModal4" style="cursor: pointer;">
+          <img src="img/q1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">04 - Quesadilla La Carne</h5>
+            <p class="card-text">Duas Unidades de Tortilla de Trigo Tostada, Cubos de Carne, Frijoles (Pasta de Feijão) e Queijo.</p>
+            <p class="preco">R$ 33,69</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-md-4 mb-4">
+        <div class="card custom-card" data-bs-toggle="modal" data-bs-target="#exampleModal5" style="cursor: pointer;">
+          <img src="img/q2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">05 - Quesadilla La Carne Y Cheddar</h5>
+            <p class="card-text">Duas Unidades de Tortilla de Trigo Tostada, Cubos de Carne, Molho de Cheddar, Frijoles (Pasta de Feijão)...</p>
+            <p class="preco">R$ 33,69</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4 mb-4">
+        <div class="card custom-card" data-bs-toggle="modal" data-bs-target="#exampleModal6" style="cursor: pointer;">
+          <img src="img/q3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">06 - Quesadilla La Carne Ranchera</h5>
+            <p class="card-text">Duas Unidades de Tortilla de Trigo Tostada, Cubos de Carne, Salsa Ranchera, Frijoles (Pasta de Feijão)...</p>
+            <p class="preco">R$ 34,69</p>
+          </div>
+        </div>
+      </div>
+
+      <br>
+  <br>
+  <br>
+
+  <p id="secao3"></p>
+  <p class="text">
+    Nachos
+  </p>
+  
+  <br>
+      <br>
+      <br>
+      <br>
+
+         <!-- Card 7 -->
+         <div class="col-md-4 mb-4">
+          <div class="card custom-card" data-bs-toggle="modal" data-bs-target="#exampleModal7" style="cursor: pointer;">
+            <img src="img/nachos1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">07 - Nachos Tradición</h5>
+              <p class="card-text">Tortilla Chips com Guacamole, Pico de Gallo e Sour Cream.</p>
+              <p class="preco">R$ 29,69</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Card 8 -->
+        <div class="col-md-4 mb-4">
+          <div class="card custom-card" data-bs-toggle="modal" data-bs-target="#exampleModal8" style="cursor: pointer;">
+            <img src="img/nachos2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">08 - Nacho Al Cheddar</h5>
+              <p class="card-text">Tortilla Chips, Molho de Cheddar e Queijo Gratinado. Acompanha Guacamole, Pico de Gallo e Sour Cream.</p>
+              <p class="preco">R$ 30,69</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Card 9 -->
+        <div class="col-md-4 mb-4">
+          <div class="card custom-card" data-bs-toggle="modal" data-bs-target="#exampleModal9" style="cursor: pointer;">
+            <img src="img/nachos3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">09 - Nachos Al Chili</h5>
+              <p class="card-text">Tortilla Chips, Chili com Carne e Queijo Gratinado. Acompanha Guacamole, Pico de Gallo e Sour Cream.</p>
+              <p class="preco">R$ 31,69</p>
+            </div>
+          </div>
+        </div>
+
+        <br>
+<br>
+<br>
+  <p id="secao4"></p>
+  <p class="text">
+    Burritos
+  </p>
+  <br>
+      <br>
+      <br>
+      <br>
+
+
+        <!-- Card 10 -->
+        <div class="col-md-4 mb-4">
+          <div class="card custom-card" data-bs-toggle="modal" data-bs-target="#exampleModal10" style="cursor: pointer;">
+            <img src="img/b1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">10 - Burrito La Carne</h5>
+              <p class="card-text">Tortilla de Trigo Recheada com Cubos de Carne, Mix de Pimentões e Cebola, Guacamole, Pico de Gallo, Sour Cream...</p>
+              <p class="preco">R$ 34,69</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 11 -->
+        <div class="col-md-4 mb-4">
+          <div class="card custom-card" data-bs-toggle="modal" data-bs-target="#exampleModal11" style="cursor: pointer;">
+            <img src="img/b2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">11 - Burrito La Carne Y Cheddar
+              </h5>
+              <p class="card-text">Tortilla de Trigo Recheada com Cubos de Carne, Molho de Cheddar, Mix de Pimentões e Cebola...</p>
+              <p class="preco">R$ 35,69</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 12 -->
+        <div class="col-md-4 mb-4">
+          <div class="card custom-card" data-bs-toggle="modal" data-bs-target="#exampleModal12" style="cursor: pointer;">
+            <img src="img/b3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">12 - Burrito La Carne Ranchera</h5>
+              <p class="card-text">Tortilla de Trigo Recheada com Cubos de Carne, Salsa Ranchera, Arroz Mexicano, Queijo e Alface.</p>
+              <p class="preco">R$ 33,69</p>
+            </div>
+          </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <p id="secao5"></p>
+  <p class="text">
+    Bebidas
+  </p>
+  <br>
+  <br>
+  <br>
+  <br>
+
+        <!-- Card 13 -->
+        <div class="col-md-4 mb-4">
+          <div class="card custom-card" data-bs-toggle="modal" data-bs-target="#exampleModal13" style="cursor: pointer;">
+            <img src="img/cervezas.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Long Neck - 800ml </h5>
+              <p class="card-text"></p>
+              <p class="preco">R$ 10,80 - R$ 16,40</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+  
+  <!-- Modal 1 -->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel1">01 - Taco La Carne</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <img src="img/taco1.jpg" alt="">
+        <div class="modal-body">
+          <p>Taco La Carne</p>
+          <p>Duas Unidades de Tortilla de Milho Crocante com Cubos de Carne, Mix de Pimentões e Cebola, Queijo e Alface. Acompanha Salsa à escolha.</p>
+          <p class="preco">R$ 31,69</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Salvar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal 2 -->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel2">02 - Taco La Carne Y Cheddar</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <img src="img/taco2.jpg" alt="">
+        <div class="modal-body">
+          <p>Duas Unidades de Tortilla de Milho Crocante com Cubos de Carne, Molho de Cheddar, Mix de Pimentões e Cebola, Queijo e Alface. Acompanha Salsa à escolha.</p>
+          <p class="preco">R$ 33,90</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Salvar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal 3 -->
+  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel3">03 - Taco La Carne Ranchera</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <img src="img/taco3.jpg" alt="">
+        <div class="modal-body">
+          <p>Duas Unidades de Tortilla de Milho Crocante com Cubos de Carne, Molho Jalapeño, Queijo e Alface. Acompanha Salsa à escolha.</p>
+          <p class="preco">R$ 34,69</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Salvar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4 -->
+  <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel4">04 - Quesadilla La Carne</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <img src="img/q1.png" alt="">
+        <div class="modal-body">
+          <p>Duas Unidades de Tortilla de Trigo Tostada, Cubos de Carne, Frijoles (Pasta de Feijão) e Queijo.
+            Acompanha Guacamole, Pico de Gallo e Sour Cream.</p>
+          <p class="preco">R$ 33,69</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Salvar</button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Modal 5 -->
+  <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel5">05 - Quesadilla La Carne Y Cheddar</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <img src="img/q2.png" alt="">
+        <div class="modal-body">
+          <p>Duas Unidades de Tortilla de Trigo Tostada, Cubos de Carne, Molho de Cheddar, Frijoles (Pasta de Feijão) e Queijo.
+            Acompanha Guacamole, Pico de Gallo e Sour Cream.</p>
+          <p class="preco">R$ 33,69</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Salvar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 6 -->
+  <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel6" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel6">06 - Quesadilla La Carne Ranchera</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <img src="img/q3.png" alt="">
+        <div class="modal-body">
+          <p>Duas Unidades de Tortilla de Trigo Tostada, Cubos de Carne, Salsa Ranchera, Frijoles (Pasta de Feijão) e Queijo.
+            Acompanha Guacamole, Pico de Gallo e Sour Cream.</p>
+          <p class="preco">R$ 34,69</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Salvar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal 7 -->
+  <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel7" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel7">07 - Nachos Tradición</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <img src="img/nachos1.jpg" alt="">
+        <div class="modal-body">
+          <p>Tortilla Chips com Guacamole, Pico de Gallo e Sour Cream.
+
+            Nível de Pimenta - Fraco
+            </p>
+          <p class="preco">R$ 29,69</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Salvar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal 8 -->
+  <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel8" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel8">08 - Nacho Al Cheddar</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <img src="img/nachos2.jpg" alt="">
+        <div class="modal-body">
+          <p>Tortilla Chips, Molho de Cheddar e Queijo Gratinado. Acompanha Guacamole, Pico de Gallo e Sour Cream.
+
+            Nível de Pimenta - Fraco</p>
+          <p class="preco">R$ 30,69</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Salvar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal 9 -->
+  <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel9" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel9">09 - Nachos Al Chili</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <img src="img/nachos3.jpg" alt="">
+        <div class="modal-body">
+          <p>Tortilla Chips, Chili com Carne e Queijo Gratinado. Acompanha Guacamole, Pico de Gallo e Sour Cream.
+
+            Nível de Pimenta - Médio</p>
+          <p class="preco">R$ 31,69</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Salvar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 10 -->
+  <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel10" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel10">10 - Burrito La Carne</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <img src="img/b1.png" alt="">
+        <div class="modal-body">
+          <p>Tortilla de Trigo Recheada com Cubos de Carne, Mix de Pimentões e Cebola, Guacamole, Pico de Gallo, Sour Cream, Queijo e Alface.
+
+            Nível de Pimenta - Fraco</p>
+          <p class="preco">R$ 34,69</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Salvar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 11 -->
+  <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel11" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel11">11 - Burrito La Carne Y Cheddar</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <img src="img/b2.jpg" alt="">
+        <div class="modal-body">
+          <p>Tortilla de Trigo Recheada com Cubos de Carne, Molho de Cheddar, Mix de Pimentões e Cebola, Arroz Mexicano, Queijo e Alface.
+
+            Nível de Pimenta - Médio</p>
+          <p class="preco">R$ 35,69</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Salvar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 12 -->
+  <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel12" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel12">12 - Burrito La Carne Ranchera</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <img src="img/b3.jpg" alt="">
+        <div class="modal-body">
+          <p>Tortilla de Trigo Recheada com Cubos de Carne, Salsa Ranchera, Arroz Mexicano, Queijo e Alface.
+
+            Nível de Pimenta - Forte</p>
+          <p class="preco">R$ 33,69</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Salvar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Modal 13 -->
+   <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel13" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel13">800 - Long Neck</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <img src="img/cervezas.jpg" alt="">
+        <div class="modal-body">
+          <p></p>
+          <p class="preco">R$ 10,80 - R$ 16,40</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Salvar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Scripts do Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+        
+        <!-- Rodapéi nferior -->
+    <footer class=" d-block "style="color:#ffff" >
+        <div class="container-fluid" >
+          <div class="row py-3 text-center">
+            <div class="col p-1 border-end">
+              <div class="col">
+                <img src="img/Logo.png" width="100px">
+              </div>
+              <div class="col mx-4 my-1 "><H6>Um pedaço do méxico no Brasil, culinária autêntica e tradicional</H6></div>
+            </div>
+            
+            <div class="col border-end">
+              <div class="col mt-4 mx-4 py-1"><img src="img/loc.png" width="20px"> Rua Santa Catarina, 207 - Floresta Joinville - Santa Catarina </div>
+              <div class="co mx-4 py-3  text-start"><img src="img/horario.png " width="20px" style="margin-right: 2%;"> Terça a Sábado: das 18h às 23h30 </div>
+              <div class="col mx-5 py-3 text-start"><img src="img/fone.png" width="20px"> (47) 3034-8975</div>
+            </div>
+            <div class="col ">
+              <div class="col p-4" href="#">INÍCIO</div>
+              <div class="col p-4" href="#">CARDÁPIO</div>
+              <div class="col p-3" href="#">PEDIDOS</div>
+            </div>
+          </div>
+        </div>
+          
+      </footer>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
