@@ -8,7 +8,18 @@ h1{
 .Durangocor{
     color: red;
 }
-
+.col-12{
+    color: red;
+}
+.col-md-3{
+    color: red;
+}
+.col-md-6{
+    color: red;
+}
+.col-md-4{
+    color: red;
+}
 .barra{
     height: 25px;
     background-color:#165C15 ;
@@ -44,30 +55,147 @@ footer
     background-color: white;
 }
 
-
-.container{
-    margin-top: 100px;
+.btn1{
+    margin-left: 265px;
+    margin-top: 75px;
+    border-color: white;
+    padding: 100px;
+    font-size: 20px;
     
 }
-.preco{
-    color: greenyellow;
+.btn2{
+    margin-top: 75px;
+    margin-left: 100px;
+    padding: 100px;
+    font-size: 20px;
+    border-color: white;
+
 }
-.text{
-    font-size: large;
-    font-weight:500;
-    text-align: center;
+.btn3{
+    margin-left: 100px;
+    padding: 100px;
+    font-size: 20px;
+    margin-top: 75px;
+    border-color: white;
 }
-.custom-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    min-height: 300px;
+.btn4{
+    margin-left: 265px;
+    margin-top: 75px;
+    border-color: white;
+    padding: 100px;
+    font-size: 20px;  
+}
+.btn5{
+    margin-top: 75px;
+    margin-left: 100px;
+    padding: 100px;
+    font-size: 20px;
+    border-color: white;
+}
+.btn6{
+    margin-left: 100px;
+    padding: 100px;
+    font-size: 20px;
+    margin-top: 75px;
+    border-color: white;
+}
+.btn7{
+    margin-left: 265px;
+    margin-top: 75px;
+    border-color: white;
+    padding: 100px;
+    font-size: 20px;
+}
+.btn8{
+    margin-top: 75px;
+    margin-left: 100px;
+    padding: 100px;
+    font-size: 20px;
+    border-color: white;
+}
+.btn9{
+    margin-left: 100px;
+    padding: 100px;
+    font-size: 20px;
+    margin-top: 75px;
+    border-color: white;
+}
+.btn10{
+    margin-left: 265px;
+    margin-top: 75px;
+    border-color: white;
+    padding: 100px;
+    font-size: 20px;
+}
+.btn11{
+    margin-top: 75px;
+    margin-left: 100px;
+    padding: 100px;
+    font-size: 20px;
+    border-color: white;
+}
+.btn12{
+    margin-left: 100px;
+    padding: 100px;
+    font-size: 20px;
+    margin-top: 75px;
+    border-color: white;
+}
+.btn12{
+    margin-left: 100px;
+    padding: 100px;
+    font-size: 20px;
+    margin-top: 75px;
+    border-color: white;
+    
+}
+.btn13{
+    margin-left: 265px;
+    margin-top: 75px;
+    border-color: white;
+    padding: 100px;
+    font-size: 20px;
+}
+.btn14{
+    margin-top: 75px;
+    margin-left: 100px;
+    padding: 100px;
+    font-size: 20px;
+    border-color: white;
+}
+.btn15{
+    margin-left: 100px;
+    padding: 100px;
+    font-size: 20px;
+    margin-top: 75px;
+    border-color: white;
+}
+.Tacos{
+    margin-right: 1280px;
+    margin-top: 90px;
+    font-size: 20px;
+}
+.Quesadilhas{
+    margin-right: 1280px;
+    margin-top: 90px;
+    font-size: 20px;
+}
+.Nachos{
+    margin-right: 1280px;
+    margin-top: 90px;
+    font-size: 20px;
+}
+.Burritos{
+    margin-right: 1280px;
+    margin-top: 90px;
+    font-size: 20px;
+}
+.Bebidas{
+    margin-right: 1280px;
+    margin-top: 90px;
+    font-size: 20px; 
+}
+.container{
+    margin-top: 100px;
 }
 
-.custom-card .card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-grow: 1;
-}
